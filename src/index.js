@@ -1,6 +1,13 @@
 import './assets/styles/normalize.css';
 import './assets/styles/style.css';
-import {createElements} from './modules/initial-page-load.js'
+import loadPage from './modules/initial-page-load.js'
 
-createElements();
 
+
+function init() {
+  loadPage();
+}
+
+
+
+init();
