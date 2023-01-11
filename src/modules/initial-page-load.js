@@ -19,7 +19,7 @@ function loadPage() {
   title.innerText = `Jim's Tavern`;
   copy.innerText = 'The highest rated burgers this side of the Mississippi';
 
-  content.appendChild(background);
+  // content.appendChild(background);
   content.appendChild(title);
   content.appendChild(copy);
 }
