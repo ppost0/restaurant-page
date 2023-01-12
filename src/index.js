@@ -7,7 +7,7 @@ import loadAbout from './modules/about.js'
 
 function init() {
   loadPage();
-  // loadAbout();
+  loadAbout();
 }
 
 
