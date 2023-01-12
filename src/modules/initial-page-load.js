@@ -33,6 +33,7 @@ function loadPage() {
 
   content.appendChild(header);
   content.appendChild(main);
+  // content.appendChild(nav);
 }
 
 export default loadPage;
