@@ -63,11 +63,10 @@ h2 {
 
 
 h3, .about-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-shadow: 0px 0px 1px black;
   -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 0.1px;
-  width: 700px;
   line-height: 2.0;
   background-color: var(--background);
   border-radius: 15px;
@@ -75,12 +74,14 @@ h3, .about-title {
   margin-right: auto;
   padding: 15px;
   border: 2px solid black;
+  width: 60ch;
 }
 
 .about-title {
   border: none;
+  width: 300px;
   background: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
   -webkit-text-stroke-width: 1px;
   padding-bottom: 0;
   margin-bottom: 0;
