@@ -3,6 +3,7 @@ import './assets/styles/style.css';
 import loadPage from './modules/initial-page-load.js';
 import loadAbout from './modules/about.js';
 import loadMenu from './modules/menu.js';
+import loadContact from './modules/contact.js';
 
 function addNavEvents() {
   const homeBtn = document.getElementById('home');
@@ -11,7 +12,7 @@ function addNavEvents() {
 
   homeBtn.addEventListener('click', loadAbout);
   menuBtn.addEventListener('click', loadMenu);
-  // contactBtn.addEventListener('click', loadContact);
+  contactBtn.addEventListener('click', loadContact);
 
 }
 
