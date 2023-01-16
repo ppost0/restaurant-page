@@ -6,7 +6,7 @@
 
 :root {
   --red: rgb(184, 20, 20);
-
+  --background: rgba(0, 0, 0, 0.6);
 }
 
 html {
@@ -28,7 +28,7 @@ html {
 header {
   display: flex;
   flex-direction: column;
-  padding: 30px 10px 50px 10px;
+  padding: 30px 10px;
   gap: 10px;
 }
 
@@ -69,7 +69,7 @@ h3, .about-title {
   -webkit-text-stroke-width: 0.1px;
   width: 700px;
   line-height: 2.0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--background);
   border-radius: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -86,3 +86,30 @@ h3, .about-title {
   margin-bottom: 0;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--background);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.tab {
+  font-family: 'Rye', cursive;
+  width: 200px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.tab:hover {
+  color: white;
+  background-color: var(--background);
+  border-color: white;
+}
+
+.tab:active {
+  text-shadow: 0 0 5px white;
+}
