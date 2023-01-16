@@ -58,7 +58,6 @@ function loadPage() {
 
 export default loadPage;
 
-// need to add nav bar
 // need to add contact tab
 // need to add menu tab
 // need to add home/about tab
